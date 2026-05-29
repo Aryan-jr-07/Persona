@@ -21,14 +21,14 @@ const AUTUMN_COLORS = [
 const SWAY_ANIMS   = ['leafSway1','leafSway2','leafSway3'];
 
 // ─── Typewriter Phrases ──────────────────────────────────────────────────────
-const PHRASES = ['Full Stack Developer', 'MERN Stack', 'React & React Native', 'Node.js & MongoDB', 'Python & Flutter'];
+const PHRASES = ['Full Stack Developer', 'MERN Stack Engineer', 'React & React Native Dev', 'Three.js & 3D Web', 'Flutter & Mobile Dev', 'Data with Python & Tableau'];
 
 // ─── Stats ───────────────────────────────────────────────────────────────────
 const STATS = [
-  { number: '2+',  label: 'Years Crafting' },
-  { number: '3',   label: 'Live Projects'  },
-  { number: '12+', label: 'Tech Mastered'  },
-  { number: '∞',   label: 'Cups of Coffee' },
+  { number: '2+',  label: 'Years Crafting'   },
+  { number: '5+',  label: 'Live Projects'    },
+  { number: '15+', label: 'Tech Mastered'    },
+  { number: '∞',   label: 'Cups of Coffee'  },
 ];
 
 function App() {
@@ -347,9 +347,9 @@ function App() {
             <span className="availability-dot" style={{ marginRight: '6px' }} />
             Open to work
           </div>
-          <h1 className="stagger-item">Digital craftsmanship with physical presence.</h1>
+          <h1 className="stagger-item">Full Stack solutions, crafted from Delhi to the world.</h1>
           <p className="stagger-item">
-            I build tactile, minimalist web experiences that feel grounded yet dynamic. Transforming ideas into solid digital realities.
+            I'm Aryan — a Full Stack &amp; MERN developer who builds everything from sleek React UIs and 3D web experiences to cross-platform mobile apps, robust APIs, and data dashboards. Ideas become live products.
           </p>
           <p className="hero-typewriter stagger-item">
             Currently crafting with&nbsp;
@@ -369,12 +369,17 @@ function App() {
           </h2>
           <div className="about-content stagger-item">
             <div className="bio">
-              <p>I am a Full Stack Developer specialized in the MERN stack and beyond. I build seamless cross-platform experiences using modern technologies from frontend web to mobile apps and robust backend services.</p>
-              <p>With expertise in HTML, CSS, JS, ReactJS, React Native, Node.js, Three.js, SQL, MongoDB, Flutter, Python, and Tableau, I possess all the skills required to take a product from concept to production.</p>
+              <p>Hey, I'm <strong>Aryan</strong> — a Full Stack Developer based in <strong>Delhi, India</strong>, passionate about turning complex ideas into polished, production-ready products. I specialise in the <strong>MERN stack</strong> but my toolkit stretches far beyond that.</p>
+              <p>From building immersive <strong>3D web experiences</strong> with Three.js and pixel-perfect React interfaces, to shipping cross-platform <strong>mobile apps</strong> in React Native &amp; Flutter, and crunching data with <strong>Python &amp; Tableau</strong> — I thrive at every layer of the stack.</p>
+              <p>Currently open to freelance projects, full-time roles, and exciting collaborations. Let's build something great.</p>
             </div>
             <div className="skills">
               <div className="skills-container">
-                {['HTML', 'CSS', 'JS', 'ReactJS', 'React Native', 'Node.js', 'Three.js', 'SQL', 'MongoDB', 'Flutter', 'Python', 'Tableau', 'MERN Stack'].map(skill => (
+                {[
+                  '⚡ HTML', '🎨 CSS', '🟡 JavaScript', '⚛️ ReactJS', '📱 React Native',
+                  '🟢 Node.js', '🌐 Three.js', '🗄️ MongoDB', '🐘 SQL', '🐦 Flutter',
+                  '🐍 Python', '📊 Tableau', '🔷 TypeScript', '🔥 REST APIs', '⚙️ Git & GitHub'
+                ].map(skill => (
                   <div key={skill} className="skill-chip">{skill}</div>
                 ))}
               </div>
