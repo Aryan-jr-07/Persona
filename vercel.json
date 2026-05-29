@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd persona && npm install && npm run build",
+  "outputDirectory": "persona/dist",
+  "framework": "vite"
+}

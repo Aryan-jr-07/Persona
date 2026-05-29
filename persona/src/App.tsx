@@ -21,13 +21,13 @@ const AUTUMN_COLORS = [
 const SWAY_ANIMS   = ['leafSway1','leafSway2','leafSway3'];
 
 // ─── Typewriter Phrases ──────────────────────────────────────────────────────
-const PHRASES = ['React & TypeScript', 'CSS & Animation', 'UI/UX Design', 'Node.js', 'Figma'];
+const PHRASES = ['Full Stack Developer', 'MERN Stack', 'React & React Native', 'Node.js & MongoDB', 'Python & Flutter'];
 
 // ─── Stats ───────────────────────────────────────────────────────────────────
 const STATS = [
   { number: '2+',  label: 'Years Crafting' },
   { number: '3',   label: 'Live Projects'  },
-  { number: '8',   label: 'Tech Mastered'  },
+  { number: '12+', label: 'Tech Mastered'  },
   { number: '∞',   label: 'Cups of Coffee' },
 ];
 
@@ -369,12 +369,12 @@ function App() {
           </h2>
           <div className="about-content stagger-item">
             <div className="bio">
-              <p>I am a developer and designer obsessed with the intersection of aesthetics and functionality. My approach relies on minimalism, typography, and physics-based interactions.</p>
-              <p>Instead of relying on flashy effects, I focus on depth, shadow, and motion to create interfaces that feel tangibly real.</p>
+              <p>I am a Full Stack Developer specialized in the MERN stack and beyond. I build seamless cross-platform experiences using modern technologies from frontend web to mobile apps and robust backend services.</p>
+              <p>With expertise in HTML, CSS, JS, ReactJS, React Native, Node.js, Three.js, SQL, MongoDB, Flutter, Python, and Tableau, I possess all the skills required to take a product from concept to production.</p>
             </div>
             <div className="skills">
               <div className="skills-container">
-                {['JavaScript', 'TypeScript', 'React', 'CSS Architecture', 'UI/UX Design', 'Node.js', 'Figma', 'Animation'].map(skill => (
+                {['HTML', 'CSS', 'JS', 'ReactJS', 'React Native', 'Node.js', 'Three.js', 'SQL', 'MongoDB', 'Flutter', 'Python', 'Tableau', 'MERN Stack'].map(skill => (
                   <div key={skill} className="skill-chip">{skill}</div>
                 ))}
               </div>

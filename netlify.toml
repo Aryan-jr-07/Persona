@@ -1,0 +1,4 @@
+[build]
+  base = "persona"
+  command = "npm run build"
+  publish = "dist"
