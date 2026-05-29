@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState, useMemo, useCallback, ChangeEvent, FormEvent } from 'react';
+import { useEffect, useRef, useState, useMemo, useCallback } from 'react';
+import type { ChangeEvent, FormEvent } from 'react';
 import './index.css';
 
 // ─── Autumn Leaf SVG Paths (4 distinct shapes) ───────────────────────────────────
